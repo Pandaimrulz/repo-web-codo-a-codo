@@ -3,11 +3,21 @@
   padding: 0;
 }
 
+#cafe-con-leche  {
+  float: right;
+  max-width: 25%;
+  margin: 0 0 0 15px;
+
+  }
+
 /*Animacion del titulo*/
 .focus-in-expand {
 	animation: focus-in-expand 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-
+ul, li {
+  padding: 1px;
+  margin-left: 30px;
+}
 /* Link color y decoracion*/
 a:link {
   color: #ffffff;
