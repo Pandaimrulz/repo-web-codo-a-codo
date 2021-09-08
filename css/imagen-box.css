@@ -1,8 +1,8 @@
 .fade {
-  opacity:0.65;
-  transition: 1.5s;
+  opacity: 0.5;;
+  transition: 1.0s;
 }
 .fade:hover {
   opacity:1;
-  transition: 1.5s;
+  transition: 1s;
 }

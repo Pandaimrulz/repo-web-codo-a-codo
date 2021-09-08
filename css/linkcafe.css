@@ -1,0 +1,28 @@
+a.linkcafe {
+    color: black;
+    font-weight: bold;
+}
+
+.linkcafe{
+    position: relative;
+    display: block;
+    top: 0px;
+    position: relative;
+    max-width: 262px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    border: 1px solid #f2f8f9;
+  }
+  
+  @media (hover: hover) and (pointer: fine) {
+    .linkcafe:hover::before{
+      left: 0;
+      right: auto;
+      width: 100%;
+    }
+  }
