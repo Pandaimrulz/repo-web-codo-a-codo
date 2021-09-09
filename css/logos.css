@@ -1,12 +1,12 @@
-.contenedorfoot{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+.contenedorfoot {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .redes {
-    align-items: center;
-    flex-basis: 5px;
-    height: auto;
-    margin: 1px;
+  align-items: center;
+  flex-basis: 5px;
+  height: auto;
+  margin: 1px;
 }

@@ -1,87 +1,407 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="icon" type="image/png" href="img/coffee.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="img/coffee.png" sizes="32x32" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/estilo.css" />
-    <link rel="stylesheet" href="css/imagen-box.css" />
-    <link rel="stylesheet" href="css/logos.css" />
-    <link rel="stylesheet" href="css/linkcafe.css" />
-    <title>Cafe and Go</title>
-  </head>
-  <body>
-    <div class="contenedor">
-      <header class="header">
-        <h2 class="focus-in-expand">CAFE AND GO</h2>
-        <br />
-        <nav class="navigation">
-          <a href="index.html" class="middle">Inicio</a>
-          <a href="tiposdecafe.html" class="middle">Tipos de Caf&eacutes</a>
-          <a href="sobrenosotros.html" class="middle">Sobre nosotros</a>
-          <a href="contacto.html" class="middle">Contacto</a>
-        </nav>
-      </header>
-      <main class="contenido">
-        <article>
-          <img src="img/cafe-con-leche.jpg" id="cafe-con-leche">
-        <h2>Caf&eacute con Leche Receta Original</h2>
-        <br>
-          <p>Tiempo >> 5 Min</p>
-          <p>Dificultad >> F&aacutecil</p>
-          <p>Costo >> Bajo</p>
-          <br>
-          <p>Puedes encontrarlo como caf&eacute latte,  caf&eacute manchado o lagrima. Es caf&eacute con leche en distintas proporciones. O la forma en que se dice caf&eacute con leche en ingles.</p>
-          <br>
-          <h4>Caf&eacute con leche paso a paso</h4>
-          <ul>
-          <br>
-            <li>Una taza</li>
-            <li>Caf&eacute</li>
-            <li>Leche.</li>
-            <li>Azúcar</li>
-          </ul>
-          <br>
-          <h4>Como preparar caf&eacute con leche</h4>
-          <br>
-          <ol>
-            <li>Primero debes hacer caf&eacute express , con un jarro estilo casero o con máquina.</li>
-            <li>Calienta leche entera en un jarro, o en una porcelana al microondas.</li>
-            <li>Con el caf&eacute y la leche caliente, agregar en una taza primero el caf&eacute, y luego la  misma proporción de leche.</li>
-          </ol>
-          <br>
-          Si tienes cafetera puedes utilizar la varilla de vapor directamente sobre la leche fría. Como realizan las cafeterías profesionales. En cuanto a las proporciones, si quieres un sabor intenso agrega mas cantidad de caf&eacute. Por el contrario si quieres un sabor suave y cremoso, agrega mas leche que caf&eacute. Lo puedes hacer midiendo el contenido con otra taza mas chica, o bien tirando los dos l&eacutequidos al mismo tiempo hasta que la taza quede llena.</p>
-        </article>
-        </main>
-      <footer class="footer">
-        <div class="contenedorfoot">
-          <div>
-            <a href="https://twitter.com/" target="_blank"><img class="redes" src="img/twitter.png" alt="Logo de twitter" /></a>
-          </div>
-          <div>
-            <a href="https://www.facebook.com/" target="_blank"><img class="redes" src="img/facebook.png" alt="Logo de facebook" /></a>
-          </div>
-          <div>
-            <a href="https://www.instagram.com/" target="_blank"><img class="redes" src="img/instagram.png" alt="Logo de instagram" /></a>
-          </div>
-          <div>
-            <a href="https://www.youtube.com/" target="_blank"><img class="redes" src="img/youtube.png" alt="Logo de youtube" /></a>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="icon" type="image/png" href="img/coffee.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="img/coffee.png" sizes="32x32" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/estilo.css" />
+  <link rel="stylesheet" href="css/imagen-box.css" />
+  <link rel="stylesheet" href="css/logos.css" />
+  <link rel="stylesheet" href="css/linkcafe.css" />
+  <link rel="stylesheet" href="css/seccion.css" />
+  <title>Cafe and Go</title>
+</head>
+
+<body>
+  <div class="contenedor">
+    <header class="header">
+      <h2 class="focus-in-expand">CAFE AND GO</h2>
+      <br />
+      <nav class="navigation">
+        <a href="index.html" class="middle">Inicio</a>
+        <a href="tiposdecafe.html" class="middle">Tipos de Caf&eacutes</a>
+        <a href="sobrenosotros.html" class="middle">Sobre nosotros</a>
+        <a href="contacto.html" class="middle">Contacto</a>
+      </nav>
+    </header>
+    <main class="contenido">
+      <article>
+        <section id="seccion1">
+          <span>
+            <img src="img/cafe-espreso.jpg" id="cafe-espreso" alt="Cafe espreso" />
+            <h2>Caf&eacute Espresso</h2>
+            <h4>Un clasico cafe italiano</h4>
+            <br />
+            <p>Tiempo >> 20 a 30 segundos</p>
+            <p>Dificultad >> F&aacutecil</p>
+            <p>Costo >> Bajo</p>
+            <br />
+            <p>
+              El secreto de un buen café expreso consta de tres elementos, el
+              tostado del café, la molienda y la presión ejercida en la
+              preparación. Si logras estos rasgos conseguirás el
+              <strong>shot de expreso</strong> perfecto.
+            </p>
+            <br />
+            <h4>Caf&eacute Espresso con maquina Espresso</h4>
+            <ul>
+              <br />
+              <li>Una taza</li>
+              <li>Caf&eacute</li>
+              <li>Azúcar</li>
+            </ul>
+            <br />
+            <ol>
+              <li>
+                <strong>Enciende tu máquina</strong> de expreso unos minutos antes de usarla.
+                Agrega agua al tanque y déjala pasar por la cafetera para que
+                pueda calentarse. Esto se hace también con la intención de
+                calentar la taza.
+              </li>
+              <li>
+                Asegúrate de que el portafiltro (el lugar en donde vas a
+                colocar el café) esté bien seco, y de no ser así límpialo con
+                un trapo.
+              </li>
+              <li>
+                Agrega la cantidad correspondiente de café en el portafolio,
+                distribúyelo de manera uniforme y <strong>presiona en el portafiltro
+                  con el tamper.</strong>
+              </li>
+              <li>
+                Esto se hace con la intención de eliminar el aire para evitar
+                que el agua se canalice, de esta forma pasa de manera uniforme
+                por todo el café.
+              </li>
+              <li>
+                <strong>Limpia la superficie</strong> del café molido para evitar que caigan
+                partículas indeseadas en la taza.
+              </li>
+              <li>
+                Finalmente inserta el portafiltro, coloca debajo la taza y
+                enciende la máquina inmediatamente, al cabo de unos segundos
+                notarás como empieza a salir el café.
+              </li>
+              <li>
+                Algunas maquinas tienen temporizador, si ese no es el caso de
+                la tuya <strong>detenla a los 25 segundos</strong> y ya tu expreso estará listo
+                para servirse.
+              </li>
+              <li>
+                Por último debes <strong>limpiar la máquina para la próxima
+                  preparación</strong>, tira el café molido del portafiltro y enjúagalo.
+              </li>
+            </ol>
+            <br />
+            <p>
+              Partiendo de este proceso puedes preparar distintos tipos de
+              expreso además del simple, por ejemplo el doble, el corto que
+              pasa menos tiempo en contacto con el agua y el largo, con un
+              mayor tiempo de extracción.
+            </p>
+          </span>
+        </section>
+        <section id="seccion2">
+          <span>
+            <img src="img/cafe-con-leche.jpg" id="cafe-con-leche" alt="Cafe con leche" />
+            <h2>Caf&eacute con Leche</h2>
+            <br />
+            <p>Tiempo >> 5 Min</p>
+            <p>Dificultad >> F&aacutecil</p>
+            <p>Costo >> Bajo</p>
+            <br />
+            <p>
+              Puedes encontrarlo como caf&eacute latte, caf&eacute manchado o
+              lagrima. Es caf&eacute con leche en distintas proporciones. O la
+              forma en que se dice caf&eacute con leche en ingles.
+            </p>
+            <br />
+            <h4>Caf&eacute con leche paso a paso</h4>
+            <ul>
+              <br />
+              <li>Una taza</li>
+              <li>Caf&eacute</li>
+              <li>Leche.</li>
+              <li>Azúcar</li>
+            </ul>
+            <br />
+            <h4>Como preparar caf&eacute con leche</h4>
+            <br />
+            <ol>
+              <li>
+                Primero debes hacer caf&eacute express , con un jarro estilo
+                casero o con máquina.
+              </li>
+              <li>
+                Calienta leche entera en un jarro, o en una porcelana al
+                microondas.
+              </li>
+              <li>
+                Con el caf&eacute y la leche caliente, agregar en una taza
+                primero el caf&eacute, y luego la misma proporción de leche.
+              </li>
+            </ol>
+            <br />
+            <p>
+              Si tienes cafetera puedes utilizar la varilla de vapor
+              directamente sobre la leche fría. Como realizan las cafeterías
+              profesionales. En cuanto a las proporciones, si quieres un sabor
+              intenso agrega mas cantidad de caf&eacute. Por el contrario si
+              quieres un sabor suave y cremoso, agrega mas leche que
+              caf&eacute. Lo puedes hacer midiendo el contenido con otra taza
+              mas chica, o bien tirando los dos l&eacutequidos al mismo tiempo
+              hasta que la taza quede llena.
+            </p>
+          </span>
+        </section>
+        <section id="seccion3">
+          <span>
+            <img src="img/cafe-moka.jpg" id="cafe-moka" alt="Cafe Moka" />
+            <h2>Caf&eacute Moka</h2>
+            <br />
+            <p>Tiempo >> 10 Min</p>
+            <p>Dificultad >> F&aacutecil</p>
+            <p>Costo >> Bajo</p>
+            <br />
+            <p>
+            <h4>Ingredientes Para Hacer Café Moka</h4>
+            <li>18 grs Expreso molido, o 1 vaina de expreso</li>
+            <li>250 ml Leche</li>
+            <li>1 Cucharadita de chocolate</li>
+            </p>
+            <br />
+            <h4>Caf&eacute Moka paso a paso</h4>
+            <br />
+            <ol>
+              <li>
+                Prepare alrededor de 35 ml de expreso con una máquina de café y viértalo en la base de su taza. Añade el
+                chocolate para beber y mézclalo bien hasta que esté suave. Vaporice la leche con el accesorio de la
+                vaporera para que tenga alrededor de 4-6cm de <strong>en la parte superior.</strong>
+              </li>
+              <li>
+                Sostenga la jarra de manera que el pico esté a unos 3-4cm Vaporice la leche con el accesorio de la
+                vaporera para que tenga alrededor de 4-6cm de espuma en la parte superior. por encima de la taza y
+                <strong>vierta la leche de manera constante.</strong> A medida que el volumen dentro de la taza aumenta,
+                acerque la jarra lo más cerca posible de la superficie de la bebida, apuntando al centro.
+              </li>
+              <li>
+                Una vez que la jarra de leche casi toca la superficie del café, inclínela para acelerar la velocidad del
+                vertido. <strong>A medida que acelera,</strong> la leche golpeará la parte posterior de la taza y
+                comenzará a doblarse naturalmente sobre sí misma para crear un patrón en la parte superior.
+              </li>
+            </ol>
+            <br />
+          </span>
+        </section>
+        <section id="seccion4">
+          <span>
+            <img src="img/cafe-irlandes.jpg" id="cafe-irlandes" alt="Cafe Irlandes" />
+            <h2>Caf&eacute Irlandes</h2>
+            <br />
+            <p>Tiempo >> 5 Min</p>
+            <p>Dificultad >> F&aacutecil</p>
+            <p>Costo >> Bajo</p>
+            <br />
+            <p>
+              Cómo hacer un buen café irlandés, sí, un buen café irlandés, porque hay miles de recetas y no todas son
+              las auténticas. En realidad es bastante sencilla, un buen café cargadito, whisky de calidad y crema de
+              leche.
+            </p>
+            <br />
+            <p>
+            <h4>Ingredientes Para Hacer Café Irlandes</h4>
+            <li>Azúcar, 1 cucharada sopera</li>
+            <li>Café expreso, 1 taza</li>
+            <li>Nata montada muy firme, 2 cucharadas sopera</li>
+            </p>
+            <br />
+            <h4>Caf&eacute Irlandes paso a paso</h4>
+            <ul>
+              <br />
+              <li>En una taza alta o copa resistente al microondas y preferiblemente de vidrio ponemos el
+                <strong>whiskey</strong> y la cucharada de <strong>azúcar</strong>.</li>
+              <li>Encendemos la cafetera y ponemos a calentar el <strong>alcohol</strong> con el azúcar durante
+                <strong>30 segundos en el microondas a 800 W</strong> de potencia.</li>
+              <li>Servimos encima el <strong>café</strong> dejando al menos un par de centímetros hasta el borde de la
+                taza.</li>
+              <li>Ponemos la <strong>nata montada</strong> encima de la espuma del café.</li>
+              <li>Servimos inmediatamente.</li>
+            </ul>
+            <br />
+            <p>
+              Una bebida muy fácil de preparar y muy famosa que no deja de tener muchas variantes y versiones, como el
+              Café Buenavista o con la ya popular jarra con pie y asa
+            </p>
+          </span>
+        </section>
+        <section id="seccion5">
+          <span>
+            <img src="img/cafe-doble.jpg" id="cafe-doble" alt="Cafe Doble" />
+            <h2>Caf&eacute Doble</h2>
+            <br />
+            <p>Tiempo >> 40 a 60 segundos</p>
+            <p>Dificultad >> F&aacutecil</p>
+            <p>Costo >> Bajo</p>
+            <br />
+            <p>
+              El cafe doble consta de replicar los pasos de un cafe espresso pero dos veces (doble).
+            </p>
+            <br />
+            <h4>Caf&eacute Doble con maquina Espresso</h4>
+            <ul>
+              <br />
+              <li>Una taza grande</li>
+              <li>Caf&eacute</li>
+              <li>Azúcar</li>
+            </ul>
+            <br />
+            <ol>
+              <li>
+                <strong>Enciende tu máquina</strong> de expreso unos minutos antes de usarla.
+                Agrega agua al tanque y déjala pasar por la cafetera para que
+                pueda calentarse. Esto se hace también con la intención de
+                calentar la taza.
+              </li>
+              <li>
+                Asegúrate de que el portafiltro (el lugar en donde vas a
+                colocar el café) esté bien seco, y de no ser así límpialo con
+                un trapo.
+              </li>
+              <li>
+                Agrega la cantidad correspondiente de café en el portafolio,
+                distribúyelo de manera uniforme y <strong>presiona en el portafiltro
+                  con el tamper.</strong>
+              </li>
+              <li>
+                Esto se hace con la intención de eliminar el aire para evitar
+                que el agua se canalice, de esta forma pasa de manera uniforme
+                por todo el café.
+              </li>
+              <li>
+                <strong>Limpia la superficie</strong> del café molido para evitar que caigan
+                partículas indeseadas en la taza.
+              </li>
+              <li>
+                Finalmente inserta el portafiltro, coloca debajo la taza y
+                enciende la máquina inmediatamente, al cabo de unos segundos
+                notarás como empieza a salir el café.
+              </li>
+              <li>
+                Algunas maquinas tienen temporizador, si ese no es el caso de
+                la tuya <strong>detenla a los 25 segundos</strong> y ya tu expreso estará listo
+                para servirse.
+              </li>
+              <li>
+                Por último debes <strong>limpiar la máquina para la próxima
+                  preparación</strong>, tira el café molido del portafiltro y enjúagalo.
+              </li>
+              <li>
+                Nota: Repetir estos pasos dos veces para lograr el cafe doble.
+              </li>
+            </ol>
+            <br />
+          </span>
+        </section>
+        <section id="seccion6">
+          <span>
+            <img src="img/cafe-capuchino.jpg" id="cafe-capuchino" alt="Cafe Capuchino" />
+            <h2>Caf&eacute Capuchino</h2>
+            <br />
+            <p>Tiempo >> 10 Min</p>
+            <p>Dificultad >> F&aacutecil</p>
+            <p>Costo >> Bajo</p>
+            <br />
+            <p>
+              La receta del café capuccino o capuchino es una de las más queridas de los amantes de esta bebida
+              energética. Despertarse con un buen café o acabar el día de la manera más agradable posible, con esta
+              bebida y un atardecer de fondo mientras nos relajamos es un placer que en este caso tendrá aroma a cacao.
+              Si quieres aprender todos los secretos del café más deseado del mundo, toma nota de la manera de hacerte
+              un capuccino o capuchino en casa como si fueras un profesional.
+            </p>
+            <br />
+            <h4>Caf&eacute Capuchino paso a paso</h4>
+            <ul>
+              <br />
+              <li>Una taza de leche</li>
+              <li>Caf&eacute</li>
+              <li>Chocolate rallado en polvo</li>
+              <li>Azúcar</li>
+              <li>Media cucharada de canela en polvo</li>
+              <li>Media taza de nata</li>
+            </ul>
+            <br />
+            <h4>Como preparar caf&eacute capuchino</h4>
+            <br />
+            <ol>
+              <li><strong>El café marca la diferencia</strong> en este tipo de recetas, debemos usar el de mejor calidad
+                y prepararlo de la manera que más nos guste.
+              </li>
+              <li>
+                Podemos <strong>hacernos un descafeinado</strong> siempre que nos apetezca o conseguir el acabado
+                perfecto de un café intenso, dependerá de nuestros gustos.
+              </li>
+              <li>
+                <strong>De máquina o en una cafetera italiana</strong>, el primer paso consistirá en hacernos el café
+                más delicioso del mundo.
+              </li>
+              <li><strong>Preparamos la leche</strong>, podemos usar una bebida vegetal, quedará igual de bien, la
+                espumamos o calentamos mientras batimos, de esta manera nos quedará más auténtico el café.</li>
+              <li><strong>Incorporamos la leche al café</strong> que ya tenemos listo, podemos darle la forma que nos
+                guste a este proceso. Añadir leche al café se ha convertido en todo un arte.</li>
+              <li>Si no somos muy amantes de la leche, podemos esperar al siguiente paso que convierte a este café en
+                algo excepcional, la nata.</li>
+              <li><strong>Añadirle nata a un café</strong> es hacerlo festivo en todos los sentidos. Espumoso y
+                contundente, es casi tan especial como poner una cucharada de leche condensada.</li>
+              <li>La nata será la que corone el capuchino aportando a esta bebida el punto de cremosidad que la hará
+                destacar.</li>
+              <li>La explosión de color y de alegría final se consigue <strong>colocando cacao en polvo o chocolate
+                </strong>rallado por encima.</li>
+              <li>Este tipo de bebida se suele empezar a comer a cucharadas, primero la parte superior de la nata y
+                después remover el café.
+              <li>Los buenos expertos en capuchinos saben muy bien que lo que se debe hacer es remover el café de arriba
+                abajo.</li>
+              <li>Si pese a la cantidad de nata te apetece azúcar, <strong>puedes añadirlo</strong> para darle el
+                acabado final a una de las bebidas míticas. </li>
+              </li>
+            </ol>
+            <br />
+            <p>Atrévete a preparar tu propio capuchino en casa en un abrir y cerrar de ojos.</p>
+          </span>
+        </section>
+      </article>
+    </main>
+    <footer class="footer">
+      <div class="contenedorfoot">
+        <div>
+          <a href="https://twitter.com/" target="_blank"><img class="redes" src="img/twitter.png"
+              alt="Logo de twitter" /></a>
         </div>
-        <h4>
-          <!--a id="mailto" href="mailto:nicoguglielmucci@gmail.com">Contacto</a-->
-          © Copyright Pandaimrulz 2021
-          <img id="cafehead" src="img/Coffe6.png" alt="Vaso de Cafe" />
-        </h4>
-      </footer>
-    </div>
-  </body>
+        <div>
+          <a href="https://www.facebook.com/" target="_blank"><img class="redes" src="img/facebook.png"
+              alt="Logo de facebook" /></a>
+        </div>
+        <div>
+          <a href="https://www.instagram.com/" target="_blank"><img class="redes" src="img/instagram.png"
+              alt="Logo de instagram" /></a>
+        </div>
+        <div>
+          <a href="https://www.youtube.com/" target="_blank"><img class="redes" src="img/youtube.png"
+              alt="Logo de youtube" /></a>
+        </div>
+      </div>
+      <h4>
+        <!--a id="mailto" href="mailto:nicoguglielmucci@gmail.com">Contacto</a-->
+        © Copyright Pandaimrulz 2021
+        <img id="cafehead" src="img/Coffe6.png" alt="Vaso de Cafe" />
+      </h4>
+    </footer>
+  </div>
+</body>
+
 </html>
