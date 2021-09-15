@@ -24,14 +24,42 @@
         <h2 class="focus-in-expand">CAFE AND GO</h2>
         <br />
         <nav class="navigation">
-          <a href="index.html" class="middle">Inicio</a>
-          <a href="tiposdecafe.html" class="middle">Tipos de Caf&eacutes</a>
-          <a href="recetas.html" class="middle">Recetas</a>
-          <a href="sobrenosotros.html" class="middle">Sobre nosotros</a>
+          <a href="index.html" class="btn first">Inicio</a>
+          <a href="tiposdecafe.html" class="btn first">Tipos de Caf&eacutes</a>
+          <a href="recetas.html" class="btn first">Recetas</a>
+          <a href="sobrenosotros.html" class="btn first">Sobre nosotros</a>
         </nav>
       </header>
       <main class="contenido">
-        <iframe
+        <script src="lib/script.js"></script>
+        <h2>Formulario de Contacto</h2>
+        <form onsubmit="return false">
+        </form>
+        <h4>Apellido</h4>
+        <input type="text" placeholder="Ingrese su apellido" id="apellido" />
+        <br>
+        <h4>Nombre</h4>
+        <input type="text" placeholder="Ingrese su nombre" id="nombre" />
+        <input type="radio" id="masculino" name="genero" value="masculino"> Masculino
+        <input type="radio" id="femenino" name="genero" value="femenino"> Femenino
+        <br>
+        <h4>Email</h4>
+        <input type="email" placeholder="Ingrese su email" id="email" />
+        <select id="pais">
+        <option disabled selected value> -- seleccione un pais -- </option>
+        <option value="Narnia">Narnia</option>
+        <option value="Neverland">Neverland</option>
+        <option value="Vulcan">Vulcan</option>
+        </select>
+        <br>
+        <br>
+        <span>Ingrese su mensaje u opinion</span>
+        <br>
+        <textarea placeholder="Ingrese un mensaje" id="pregunta" rows="5"></textarea>
+        <br>
+        <br>
+        <button onclick="sendContact();">Send contact</button>
+        <!-- iframe
           id=""
           allowtransparency="true"
           allowfullscreen="true"
@@ -39,7 +67,7 @@
           src="https://my.forms.app/form/61302de845ced939b9c131e3"
           frameborder="0"
           style="width: 1px; min-width: 100%; height: 800px; border: none"
-        ></iframe>
+        ></iframe-->
       </main>
       <footer class="footer">
         <div class="contenedorfoot">

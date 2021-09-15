@@ -9,4 +9,22 @@
   flex-basis: 5px;
   height: auto;
   margin: 1px;
+  border-color:chocolate;
+  border-style:groove;
+  border-radius: 50px;
+}
+
+/*  Transicion con mouse arriba */
+.redes:hover {
+  color: peru;
+  padding: 0.5px 14px;
+  transition: 0.5s ease-out;
+  transition: 0.5s ease-in;
+}
+
+/*  Transicion con mouse no arriba */
+.redes {
+  color: peru;
+  transition: 0.5s ease-out;
+  transition: 0.5s ease-in;
 }
