@@ -1,84 +1,38 @@
+@media screen and (max-width: 2000px) {
+
 /*Seccion Recetas*/
-#seccion1 {
+#seccion1, #seccion2, #seccion3, #seccion4, #seccion5, #seccion6  {
   margin: 20px;
   padding: 80px;
   background-color: rgba(179, 120, 11, 0.795);
   border-radius: 10px;
 }
 
-#seccion2 {
-  margin: 20px;
-  padding: 80px;
-  background-color: rgba(143, 109, 45, 0.795);
-  border-radius: 10px;
-}
-
-#seccion3 {
-  margin: 20px;
-  padding: 80px;
-  background-color: rgba(138, 91, 5, 0.795);
-  border-radius: 10px;
-}
-
-#seccion4 {
-  margin: 20px;
-  padding: 80px;
-  background-color: rgba(100, 73, 23, 0.795);
-  border-radius: 10px;
-}
-
-#seccion5 {
-  margin: 20px;
-  padding: 80px;
-  background-color: rgba(94, 73, 34, 0.795);
-  border-radius: 10px;
-}
-
-#seccion6 {
-  margin: 20px;
-  padding: 80px;
-  background-color: rgba(88, 59, 4, 0.795);
-  border-radius: 10px;
-}
-
 /*Imagenes Recetas*/
-#cafe-espreso {
+#cafe-espreso, #cafe-con-leche, #cafe-moka, #cafe-irlandes, #cafe-doble, #cafe-capuchino {
   float: right;
   max-width: 45%;
   margin: 0 0 0 15px;
   border-radius: 10px;
 }
-#cafe-con-leche {
-  float: right;
-  max-width: 45%;
-  margin: 0 0 0 15px;
-  border-radius: 10px;
 }
 
-#cafe-moka {
-  float: right;
-  max-width: 45%;
-  margin: 0 0 0 15px;
+@media screen and (max-width: 768px) {
+/*Seccion Recetas*/
+#seccion1, #seccion2, #seccion3, #seccion4, #seccion5, #seccion6  {
+  margin: 10px;
+  padding: 50px;
+  background-color: rgba(179, 120, 11, 0.795);
   border-radius: 10px;
 }
-
-#cafe-irlandes {
-  float: right;
-  max-width: 45%;
-  margin: 0 0 0 15px;
-  border-radius: 10px;
 }
 
-#cafe-doble {
-  float: right;
-  max-width: 45%;
-  margin: 0 0 0 15px;
+@media screen and (max-width: 576px) {
+/*Seccion Recetas*/
+#seccion1, #seccion2, #seccion3, #seccion4, #seccion5, #seccion6  {
+  margin: 1px;
+  padding: 5px;
+  background-color: rgba(179, 120, 11, 0.795);
   border-radius: 10px;
 }
-
-#cafe-capuchino {
-  float: right;
-  max-width: 45%;
-  margin: 0 0 0 15px;
-  border-radius: 10px;
 }
