@@ -12,6 +12,8 @@
       href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/estilo.css" />
     <link rel="stylesheet" href="css/imagen-box.css" />
     <link rel="stylesheet" href="css/logos.css" />
@@ -31,44 +33,27 @@
         </nav>
       </header>
       <main class="contenido">
-        <script src="lib/script.js"></script>
-        <h2>Formulario de Contacto</h2>
-        <form onsubmit="return false">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputName" class="form-label">Nombre</label>
+            <input type="name" class="form-control" id="exampleInputName">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputLastName" class="form-label">Apellido</label>
+            <input type="lastname" class="form-control" id="exampleInputLastName">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Direccion de Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Su email no sera compartido con nadie.</div>
+          </div>
+          <div class="form-group">
+            <label for="comment">Comentario:</label>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
-        <h4>Apellido</h4>
-        <input type="text" placeholder="Ingrese su apellido" id="apellido" />
-        <br>
-        <h4>Nombre</h4>
-        <input type="text" placeholder="Ingrese su nombre" id="nombre" />
-        <input type="radio" id="masculino" name="genero" value="masculino"> Masculino
-        <input type="radio" id="femenino" name="genero" value="femenino"> Femenino
-        <br>
-        <h4>Email</h4>
-        <input type="email" placeholder="Ingrese su email" id="email" />
-        <select id="pais">
-        <option disabled selected value> -- seleccione un pais -- </option>
-        <option value="Narnia">Narnia</option>
-        <option value="Neverland">Neverland</option>
-        <option value="Vulcan">Vulcan</option>
-        </select>
-        <br>
-        <br>
-        <span>Ingrese su mensaje u opinion</span>
-        <br>
-        <textarea placeholder="Ingrese un mensaje" id="pregunta" rows="5"></textarea>
-        <br>
-        <br>
-        <button onclick="sendContact();">Send contact</button>
-        <!-- iframe
-          id=""
-          allowtransparency="true"
-          allowfullscreen="true"
-          allow="geolocation; microphone; camera"
-          src="https://my.forms.app/form/61302de845ced939b9c131e3"
-          frameborder="0"
-          style="width: 1px; min-width: 100%; height: 800px; border: none"
-        ></iframe-->
-      </main>
+       </main>
       <footer class="footer">
         <div class="contenedorfoot">
           <div>
