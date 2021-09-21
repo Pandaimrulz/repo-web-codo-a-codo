@@ -1,4 +1,4 @@
-/*Seccion Recetas*/
+/* Seccion Recetas */
 #seccion1 {
   margin: 20px;
   padding: 80px;
@@ -41,7 +41,7 @@
   border-radius: 10px;
 }
 
-/*Imagenes Recetas*/
+/* Imagenes Recetas */
 #cafe-espreso {
   float: right;
   max-width: 45%;
