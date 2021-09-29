@@ -43,42 +43,61 @@
 
 /* Imagenes Recetas */
 #cafe-espreso {
+  height: auto;
+  width: 45%;
   float: right;
-  max-width: 45%;
+  min-width: 45%;
   margin: 0 0 0 15px;
   border-radius: 10px;
 }
 #cafe-con-leche {
+  height: auto;
+  width: 45%;
   float: right;
-  max-width: 45%;
+  min-width: 45%;
   margin: 0 0 0 15px;
   border-radius: 10px;
 }
 
 #cafe-moka {
+  height: auto;
+  width: 45%;
   float: right;
-  max-width: 45%;
+  min-width: 45%;
   margin: 0 0 0 15px;
   border-radius: 10px;
 }
 
 #cafe-irlandes {
+  height: auto;
+  width: 45%;
   float: right;
-  max-width: 45%;
+  min-width: 45%;
   margin: 0 0 0 15px;
   border-radius: 10px;
 }
 
 #cafe-doble {
+  height: auto;
+  width: 45%;
   float: right;
-  max-width: 45%;
+  min-width: 45%;
   margin: 0 0 0 15px;
   border-radius: 10px;
 }
 
 #cafe-capuchino {
+  height: auto;
+  width: 45%;
   float: right;
-  max-width: 45%;
+  min-width: 45%;
   margin: 0 0 0 15px;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  #seccion1, #seccion2, #seccion3, #seccion4, #seccion5, #seccion6 {
+    margin: 0px;
+    padding: 20px;
+  }
 }

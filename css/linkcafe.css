@@ -26,3 +26,10 @@ a.linkcafe {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 576px) {
+  #tipos-cafe{
+    margin: 0px;
+    padding: 20px;
+  }
+}

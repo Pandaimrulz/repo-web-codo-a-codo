@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Pagina de contacto de Cafe and GO para que puedas dejar inquietudes, mensajes, etc." />
     <link rel="icon" type="image/png" href="img/coffee.png" sizes="16x16" />
     <link rel="icon" type="image/png" href="img/coffee.png" sizes="32x32" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,6 +19,7 @@
     <link rel="stylesheet" href="css/imagen-box.css" />
     <link rel="stylesheet" href="css/logos.css" />
     <link rel="stylesheet" href="css/linkcafe.css" />
+    <link rel="stylesheet" href="css/form.css" />
     <title>Cafe and Go</title>
   </head>
   <body>
@@ -37,20 +39,20 @@
         <form id="formcontacto">
           <div class="mb-3">
             <label for="exampleInputName" class="form-label">Nombre</label>
-            <input type="name" class="form-control" id="exampleInputName" placeholder="Ingrese su Nombre aqui...">
+            <input type="name" class="form-control" id="exampleInputName" placeholder="Ingrese su Nombre aqui..." required>
           </div>
           <div class="mb-3">
             <label for="exampleInputLastName" class="form-label">Apellido</label>
-            <input type="lastname" class="form-control" id="exampleInputLastName" placeholder="Ingrese su Apellido aqui...">
+            <input type="lastname" class="form-control" id="exampleInputLastName" placeholder="Ingrese su Apellido aqui..." required>
           </div>
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Direccion de Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@email.com">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@email.com" required>
             <div id="emailHelp" class="form-text">Su email no sera compartido con nadie.</div>
           </div>
           <div class="form-group">
             <label for="comment">Sugerencias y/o Comentarios:</label>
-            <textarea class="form-control" rows="5" id="comment" placeholder="Ingrese sus sugerencias o comentarios aqui..."></textarea>
+            <textarea class="form-control" rows="5" id="comment" placeholder="Ingrese sus sugerencias o comentarios aqui..." required></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Enviar</button>
         </form>

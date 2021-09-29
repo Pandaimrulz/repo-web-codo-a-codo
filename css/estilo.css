@@ -140,6 +140,7 @@ body {
     "widget-1 widget-2 widget-3"
     "widget-4 widget-5 widget-6"
     "footer footer footer";
+    
 }
 
 .contenedor > div,
@@ -168,10 +169,12 @@ body {
   color: #fff;
   grid-area: navigation;
   font-size: 1rem;
+  border-top-left-radius: 50% 40%;
+  border-top-right-radius: 50% 40%;
 }
 .contenedor .contenido {
   grid-area: contenido;
-  padding: 50px;
+  padding: 20px;
 }
 
 .contenedor .widget-1,
@@ -242,6 +245,8 @@ body {
   color: rgb(0, 0, 0);
   grid-area: footer;
   text-align: center;
+  border-bottom-left-radius: 50% 40%;
+  border-bottom-right-radius: 50% 40%;
 }
 
 #mailto {
@@ -280,6 +285,8 @@ body {
       "widget-5 widget-6"
       "footer footer"
       "footer";
+      display: flex;
+      flex-direction: column;
   }
 }
 
@@ -302,6 +309,8 @@ body {
     "footer"
     "footer""
     "footer";
+    display: flex;
+    flex-direction: column;
   }
 }
 /* ----------------------------------------------
