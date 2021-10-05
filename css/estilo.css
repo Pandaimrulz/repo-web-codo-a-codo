@@ -7,7 +7,7 @@
   --color--tan: #DDB892;
   --color--cafeaulate: #B08968;
   --color--cafe: #7F5539;
-  --color-azucarmarron: #9C6644;
+  --color--azucarmarron: #9C6644;
 }
 
 * {
@@ -58,7 +58,7 @@ li {
 /* Boton animacion*/
 .first:hover {
   transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
-  box-shadow: 0 0 40px 40px var(--color-azucarmarron) inset;
+  box-shadow: 0 0 40px 40px var(--color--azucarmarron) inset;
 }
 
 /* Selector de color cuando estamos en la web elegida */
