@@ -1,11 +1,30 @@
 /* CSS del area de contacto */
 
+* {
+  box-sizing: border-box;
+}
+
+/* Columnas que flotan una al lado de la otra */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+
+}
+
+/* Borrar flotantes despues de las columnas */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .wrapper{
     max-width: auto;
     width: 95%;
     background: #fff;
     padding: 25px;
-    border-radius: 5px;
+    border-radius: 10px;
   }
 
   .wrapper h2{
@@ -17,7 +36,7 @@
   }
   
   .wrapper .input_field{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
   
   .wrapper .input_field input[type="text"],
@@ -25,6 +44,7 @@
     border: 1px solid #e0e0e0;
     width: 100%;
     padding: 10px;
+    border-radius: 10px;
   }
   
   .wrapper textarea{
@@ -54,4 +74,77 @@
     text-align: center;
     font-size: 14px;
     transition: all 0.5s ease;
+  }
+
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+
+  /* Pantalla Grande - Dekstop */
+  @media screen and (max-width: 1200px) {
+    .contenedor {
+      grid-template-areas:
+        "header header header"
+        "contenido contenido contenido"
+        "widget-1 widget-2 widget-3"
+        "widget-4 widget-5 widget-6"
+        "footer footer footer";
+    }
+  }
+  /* Pantalla mediana - Tablet */
+  @media screen and (max-width: 768px) {
+    .contenedor {
+      grid-template-areas:
+        "header header"
+        "header"
+        "contenido contenido"
+        "contenido"
+        "widget-1 widget-2"
+        "widget-3 widget-4"
+        "widget-5 widget-6"
+        "footer footer"
+        "footer";
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+  /* Pantalla chica - Celular */
+  @media screen and (max-width: 576px) {
+    .contenedor {
+      grid-template-areas:
+      "header"
+      "header"
+      "header"
+      "contenido"
+      "contenido"
+      "contenido"
+      "widget-1"
+      "widget-2"
+      "widget-3"
+      "widget-4"
+      "widget-5"
+      "widget-6"
+      "footer"
+      "footer""
+      "footer";
+      display: flex;
+      flex-direction: column;
+    }
+  } 
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
   }
