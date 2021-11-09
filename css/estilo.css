@@ -118,6 +118,12 @@ a.middle:hover:before {
   transform: scaleX(0.5);
 }
 
+/* Salto de linea en vez de usar <br> */
+p::after {
+  content: '\a';
+  white-space: pre;
+}
+
 h1 {
   background-color: var(--color--cafeaulate);
   text-align: center;
